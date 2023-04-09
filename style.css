@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  ul {
+    list-style: none;
+  }
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #020202;
+  }
+  .nav-bar__lista {
+    display:flex;
+  }
+  a:link { text-decoration: none;
+  }
+  .nav-bar ul li a  {
+    background-color: rgb(200, 155, 243);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+    #selección {
+    background-color: rgb(200, 155, 243);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    }
+    .nav-bar ul li a:active {
+    color: rgb(0, 0, 0);
+    background-color: blueviolet;
+  }
+  .nav-bar ul li a:hover {
+    background-color: rgb(7, 206, 140);
+ }
+
